@@ -1,0 +1,154 @@
+[
+    {
+        "Kode": "R1",
+        "Aturan": "IF G1 THEN M1"
+    },
+    {
+        "Kode": "R2",
+        "Aturan": "IF G2 THEN M2"
+    },
+    {
+        "Kode": "R3",
+        "Aturan": "IF G3 THEN M3"
+    },
+    {
+        "Kode": "R4",
+        "Aturan": "IF G3 AND G4 THEN M4"
+    },
+    {
+        "Kode": "R5",
+        "Aturan": "IF G5 THEN M5"
+    },
+    {
+        "Kode": "R6",
+        "Aturan": "IF G6 THEN M6"
+    },
+    {
+        "Kode": "R7",
+        "Aturan": "IF G7 THEN M7"
+    },
+    {
+        "Kode": "R8",
+        "Aturan": "IF G8 THEN M8"
+    },
+    {
+        "Kode": "R9",
+        "Aturan": "IF G9 THEN M9"
+    },
+    {
+        "Kode": "R10",
+        "Aturan": "IF G10 THEN M10"
+    },
+    {
+        "Kode": "R11",
+        "Aturan": "IF G11 THEN M11"
+    },
+    {
+        "Kode": "R12",
+        "Aturan": "IF G12 THEN M12"
+    },
+    {
+        "Kode": "R13",
+        "Aturan": "IF G13 THEN M13"
+    },
+    {
+        "Kode": "R14",
+        "Aturan": "IF G14 THEN M14"
+    },
+    {
+        "Kode": "R15",
+        "Aturan": "IF G15 THEN M15"
+    },
+    {
+        "Kode": "R16",
+        "Aturan": "IF G16 THEN M16"
+    },
+    {
+        "Kode": "R17",
+        "Aturan": "IF G17 THEN M17"
+    },
+    {
+        "Kode": "R18",
+        "Aturan": "IF G18 THEN M18"
+    },
+    {
+        "Kode": "R19",
+        "Aturan": "IF G19 THEN M19"
+    },
+    {
+        "Kode": "R20",
+        "Aturan": "IF G20 THEN M20"
+    },
+    {
+        "Kode": "R21",
+        "Aturan": "IF G21 THEN M21"
+    },
+    {
+        "Kode": "R22",
+        "Aturan": "IF G22 THEN M22"
+    },
+    {
+        "Kode": "R23",
+        "Aturan": "IF G23 THEN M23"
+    },
+    {
+        "Kode": "R24",
+        "Aturan": "IF G24 THEN M24"
+    },
+    {
+        "Kode": "R25",
+        "Aturan": "IF G25 THEN M25"
+    },
+    {
+        "Kode": "R26",
+        "Aturan": "IF G26 THEN M24"
+    },
+    {
+        "Kode": "R27",
+        "Aturan": "IF G27 THEN M24"
+    },
+    {
+        "Kode": "R28",
+        "Aturan": "IF G28 THEN M24"
+    },
+    {
+        "Kode": "R29",
+        "Aturan": "IF G29 THEN M24"
+    },
+    {
+        "Kode": "R30",
+        "Aturan": "IF G30 THEN M24"
+    },
+    {
+        "Kode": "R31",
+        "Aturan": "IF G5 AND G6 THEN M5"
+    },
+    {
+        "Kode": "R32",
+        "Aturan": "IF G23 AND G24 THEN M23"
+    },
+    {
+        "Kode": "R33",
+        "Aturan": "IF G25 AND G26 THEN M24"
+    },
+    {
+        "Kode": "R34",
+        "Aturan": "IF G29 AND G30 THEN M24"
+    },
+    {
+        "Kode": "R35",
+        "Aturan": "IF G7 AND G8 THEN M8"
+    },
+    {
+        "Kode": "R36",
+        "Aturan": "IF G11 AND G12 THEN M12"
+    },
+    {
+        "Kode": "R37",
+        "Aturan": "IF G16 AND G17 THEN M17"
+    },
+    {
+        "Kode": "R38",
+        "Aturan": "IF G21 AND G22 THEN M22"
+    }
+]

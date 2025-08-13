@@ -1,0 +1,182 @@
+[
+    {
+        "Kode": "G1",
+        "Nama Gejala": "Tidak dapat melakukan proses registrasi akun",
+        "Tipe Pengguna": "Vendor",
+        "Proses": "Registrasi"
+    },
+    {
+        "Kode": "G2",
+        "Nama Gejala": "Tidak dapat login ke sistem e-procurement",
+        "Tipe Pengguna": "Vendor",
+        "Proses": "Registrasi"
+    },
+    {
+        "Kode": "G3",
+        "Nama Gejala": "Data perusahaan belum lengkap di menu Profile",
+        "Tipe Pengguna": "Vendor",
+        "Proses": "Registrasi"
+    },
+    {
+        "Kode": "G4",
+        "Nama Gejala": "Tidak dapat mengikuti tender (join tender)",
+        "Tipe Pengguna": "Vendor",
+        "Proses": "Join"
+    },
+    {
+        "Kode": "G5",
+        "Nama Gejala": "Tombol upload dokumen PQ error saat file bukan dari Google Drive",
+        "Tipe Pengguna": "Vendor",
+        "Proses": "Prequalification"
+    },
+    {
+        "Kode": "G6",
+        "Nama Gejala": "Link Google Drive tidak dapat diakses oleh sistem",
+        "Tipe Pengguna": "Vendor",
+        "Proses": "Prequalification"
+    },
+    {
+        "Kode": "G7",
+        "Nama Gejala": "Menu Quotation tidak muncul meskipun RFQ sudah dikirim",
+        "Tipe Pengguna": "Vendor",
+        "Proses": "Quotation"
+    },
+    {
+        "Kode": "G8",
+        "Nama Gejala": "Tidak dapat submit quotation",
+        "Tipe Pengguna": "Vendor",
+        "Proses": "Quotation"
+    },
+    {
+        "Kode": "G9",
+        "Nama Gejala": "Tidak dapat merevisi quotation sebelum closing time",
+        "Tipe Pengguna": "Vendor",
+        "Proses": "Quotation"
+    },
+    {
+        "Kode": "G10",
+        "Nama Gejala": "Form TKDN SC-19B tidak muncul saat mengisi quotation",
+        "Tipe Pengguna": "Vendor",
+        "Proses": "Quotation"
+    },
+    {
+        "Kode": "G11",
+        "Nama Gejala": "Menu Negotiation tidak muncul meskipun sudah ada permintaan nego",
+        "Tipe Pengguna": "Vendor",
+        "Proses": "Negotiation"
+    },
+    {
+        "Kode": "G12",
+        "Nama Gejala": "Tidak dapat submit harga negosiasi",
+        "Tipe Pengguna": "Vendor",
+        "Proses": "Negotiation"
+    },
+    {
+        "Kode": "G13",
+        "Nama Gejala": "Tidak dapat merevisi harga negosiasi",
+        "Tipe Pengguna": "Vendor",
+        "Proses": "Negotiation"
+    },
+    {
+        "Kode": "G14",
+        "Nama Gejala": "Tombol Accept Award tidak muncul",
+        "Tipe Pengguna": "Vendor",
+        "Proses": "Awarding"
+    },
+    {
+        "Kode": "G15",
+        "Nama Gejala": "Tidak menerima notifikasi awarding",
+        "Tipe Pengguna": "Vendor",
+        "Proses": "Awarding"
+    },
+    {
+        "Kode": "G16",
+        "Nama Gejala": "Tidak dapat menerima nomor RFM/S",
+        "Tipe Pengguna": "Internal",
+        "Proses": "Receive RFM/S"
+    },
+    {
+        "Kode": "G17",
+        "Nama Gejala": "Tidak dapat men-setup Procurement Specialist",
+        "Tipe Pengguna": "Internal",
+        "Proses": "Receive RFM/S"
+    },
+    {
+        "Kode": "G18",
+        "Nama Gejala": "Terjadi error saat assign tim internal",
+        "Tipe Pengguna": "Internal",
+        "Proses": "Assign Teams"
+    },
+    {
+        "Kode": "G19",
+        "Nama Gejala": "Tidak dapat mengundang vendor pada proses non-Open Tender",
+        "Tipe Pengguna": "Internal",
+        "Proses": "Invite Vendor"
+    },
+    {
+        "Kode": "G20",
+        "Nama Gejala": "Tidak dapat menyimpan setup Prequalification karena lokasi activity kosong",
+        "Tipe Pengguna": "Internal",
+        "Proses": "Setup PQ"
+    },
+    {
+        "Kode": "G21",
+        "Nama Gejala": "Field upload dokumen PQ dari vendor tidak muncul",
+        "Tipe Pengguna": "Internal",
+        "Proses": "PQ Evaluation"
+    },
+    {
+        "Kode": "G22",
+        "Nama Gejala": "Evaluasi dokumen PQ tertunda karena dokumen tidak lengkap",
+        "Tipe Pengguna": "Internal",
+        "Proses": "PQ Evaluation"
+    },
+    {
+        "Kode": "G23",
+        "Nama Gejala": "Tidak dapat membuat RFQ (Request for Quotation)",
+        "Tipe Pengguna": "Internal",
+        "Proses": "Setup RFQ"
+    },
+    {
+        "Kode": "G24",
+        "Nama Gejala": "Field closing time, OE, atau contract duration tidak dapat diisi",
+        "Tipe Pengguna": "Internal",
+        "Proses": "Setup RFQ"
+    },
+    {
+        "Kode": "G25",
+        "Nama Gejala": "Tidak dapat upload file attachment pada RFQ",
+        "Tipe Pengguna": "Internal",
+        "Proses": "Setup RFQ"
+    },
+    {
+        "Kode": "G26",
+        "Nama Gejala": "Tidak dapat mengatur technical/commercial requirement",
+        "Tipe Pengguna": "Internal",
+        "Proses": "Setup RFQ"
+    },
+    {
+        "Kode": "G27",
+        "Nama Gejala": "Dokumen RFQ tidak terbentuk secara otomatis",
+        "Tipe Pengguna": "Internal",
+        "Proses": "Setup RFQ"
+    },
+    {
+        "Kode": "G28",
+        "Nama Gejala": "Bid Opening Summary tidak muncul setelah closing time",
+        "Tipe Pengguna": "Internal",
+        "Proses": "Bid Opening"
+    },
+    {
+        "Kode": "G29",
+        "Nama Gejala": "Tidak dapat melakukan evaluasi dokumen teknis dari vendor",
+        "Tipe Pengguna": "Internal",
+        "Proses": "Technical Evaluation"
+    },
+    {
+        "Kode": "G30",
+        "Nama Gejala": "Tidak dapat melakukan evaluasi komersial (bid price, TKDN)",
+        "Tipe Pengguna": "Internal",
+        "Proses": "Commercial Evaluation"
+    }
+]

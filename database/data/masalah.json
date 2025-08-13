@@ -1,0 +1,152 @@
+[
+    {
+        "Kode": "M1",
+        "Nama Masalah": "Gagal melakukan registrasi akun vendor",
+        "Solusi": "Pastikan koneksi stabil, isi data dengan benar, atau hubungi helpdesk untuk verifikasi akun.",
+        "Tipe Pengguna": "Vendor"
+    },
+    {
+        "Kode": "M2",
+        "Nama Masalah": "Akun vendor tidak dapat login ke sistem",
+        "Solusi": "Gunakan fitur \"Lupa Password\" untuk reset kata sandi. Pastikan username dan password benar.",
+        "Tipe Pengguna": "Vendor"
+    },
+    {
+        "Kode": "M3",
+        "Nama Masalah": "Data perusahaan tidak lengkap, menghambat proses tender",
+        "Solusi": "Lengkapi semua data wajib di menu Profile (NPWP, SIUP, dokumen perusahaan, PIC).",
+        "Tipe Pengguna": "Vendor"
+    },
+    {
+        "Kode": "M4",
+        "Nama Masalah": "Tidak dapat join tender karena profil belum lengkap",
+        "Solusi": "Lengkapi profil di menu Profile, lalu coba kembali fitur Join Tender.",
+        "Tipe Pengguna": "Vendor"
+    },
+    {
+        "Kode": "M5",
+        "Nama Masalah": "Upload dokumen PQ gagal karena format/file bukan dari Google Drive",
+        "Solusi": "Unggah dokumen ke Google Drive, bagikan link dengan akses \"Anyone with the link can view\".",
+        "Tipe Pengguna": "Vendor"
+    },
+    {
+        "Kode": "M6",
+        "Nama Masalah": "Link Google Drive tidak valid atau tidak bisa diakses sistem",
+        "Solusi": "Ubah izin Google Drive menjadi \"Anyone with the link can view\" dan pastikan link benar.",
+        "Tipe Pengguna": "Vendor"
+    },
+    {
+        "Kode": "M7",
+        "Nama Masalah": "Quotation tidak muncul karena RFQ belum dikirim oleh internal",
+        "Solusi": "Konfirmasi ke Procurement Specialist apakah RFQ sudah dikirim. Sistem hanya menampilkan Quotation setelah RFQ dikirim.",
+        "Tipe Pengguna": "Vendor"
+    },
+    {
+        "Kode": "M8",
+        "Nama Masalah": "Sistem tidak mengizinkan submit quotation",
+        "Solusi": "Pastikan semua field terisi (termasuk TKDN), closing time belum lewat, dan coba refresh halaman.",
+        "Tipe Pengguna": "Vendor"
+    },
+    {
+        "Kode": "M9",
+        "Nama Masalah": "Fitur revisi quotation tidak berfungsi",
+        "Solusi": "Gunakan tombol \"Revise\" sebelum closing time. Jika tidak muncul, coba login ulang atau clear cache.",
+        "Tipe Pengguna": "Vendor"
+    },
+    {
+        "Kode": "M10",
+        "Nama Masalah": "Form TKDN SC-19B tidak tampil saat mengisi quotation",
+        "Solusi": "Pastikan RFQ memiliki requirement TKDN. Jika tidak muncul, hubungi Procurement Specialist.",
+        "Tipe Pengguna": "Vendor"
+    },
+    {
+        "Kode": "M11",
+        "Nama Masalah": "Fitur negosiasi tidak muncul meskipun sudah ada permintaan",
+        "Solusi": "Pastikan internal telah mengirim negosiasi. Cek notifikasi dan refresh halaman.",
+        "Tipe Pengguna": "Vendor"
+    },
+    {
+        "Kode": "M12",
+        "Nama Masalah": "Gagal submit harga negosiasi",
+        "Solusi": "Pastikan bid price dan form TKDN terisi. Hindari karakter khusus.",
+        "Tipe Pengguna": "Vendor"
+    },
+    {
+        "Kode": "M13",
+        "Nama Masalah": "Tidak bisa merevisi harga negosiasi",
+        "Solusi": "Pastikan masa revisi nego belum berakhir. Jika closing time nego telah lewat, revisi tidak dapat dilakukan.",
+        "Tipe Pengguna": "Vendor"
+    },
+    {
+        "Kode": "M14",
+        "Nama Masalah": "Tombol Accept Award tidak muncul",
+        "Solusi": "Pastikan Anda adalah pemenang tender dan notifikasi award telah diterima. Cek menu Awarding.",
+        "Tipe Pengguna": "Vendor"
+    },
+    {
+        "Kode": "M15",
+        "Nama Masalah": "Vendor tidak menerima notifikasi pemenang tender",
+        "Solusi": "Cek email (termasuk spam) dan notifikasi dalam sistem. Jika tidak ada, konfirmasi ke internal.",
+        "Tipe Pengguna": "Vendor"
+    },
+    {
+        "Kode": "M16",
+        "Nama Masalah": "RFM/S number tidak bisa diterima atau diproses",
+        "Solusi": "Hanya Procurement Admin yang bisa menerima RFM/S. Pastikan role user benar.",
+        "Tipe Pengguna": "Internal"
+    },
+    {
+        "Kode": "M17",
+        "Nama Masalah": "Procurement Specialist tidak bisa di-setup",
+        "Solusi": "Pastikan user memiliki role PS dan status aktif. Hanya Procurement Admin yang bisa setup.",
+        "Tipe Pengguna": "Internal"
+    },
+    {
+        "Kode": "M18",
+        "Nama Masalah": "Tim internal gagal di-assign",
+        "Solusi": "Pastikan semua role diisi dengan user aktif. Coba ulangi proses assign.",
+        "Tipe Pengguna": "Internal"
+    },
+    {
+        "Kode": "M19",
+        "Nama Masalah": "Vendor tidak bisa diundang pada proses non-Open Tender",
+        "Solusi": "Pastikan vendor sudah terdaftar dan aktif. Cek koneksi dan ulangi undangan.",
+        "Tipe Pengguna": "Internal"
+    },
+    {
+        "Kode": "M20",
+        "Nama Masalah": "Setup Prequalification gagal karena lokasi activity kosong",
+        "Solusi": "Isi field \"Lokasi Activity\" pada setup PQ sebelum klik Save.",
+        "Tipe Pengguna": "Internal"
+    },
+    {
+        "Kode": "M21",
+        "Nama Masalah": "Sistem tidak menerima submission dokumen PQ dari vendor",
+        "Solusi": "Pastikan tender sudah memasuki fase PQ Submission dan vendor telah diundang.",
+        "Tipe Pengguna": "Internal"
+    },
+    {
+        "Kode": "M22",
+        "Nama Masalah": "Evaluasi PQ tertunda karena dokumen tidak lengkap",
+        "Solusi": "Hubungi vendor untuk melengkapi dokumen. Jika tidak responsif, tandai sebagai \"Not Passed\".",
+        "Tipe Pengguna": "Internal"
+    },
+    {
+        "Kode": "M23",
+        "Nama Masalah": "RFQ tidak bisa dibuat atau dikirim",
+        "Solusi": "Pastikan semua tahap sebelumnya selesai (PQ, assign team). Coba refresh atau login ulang.",
+        "Tipe Pengguna": "Internal"
+    },
+    {
+        "Kode": "M24",
+        "Nama Masalah": "Perhitungan HEP gagal atau tidak muncul",
+        "Solusi": "Pastikan semua bid price dan bobot komersial terisi. Gunakan fitur \"Calculate HEP\".",
+        "Tipe Pengguna": "Internal"
+    },
+    {
+        "Kode": "M25",
+        "Nama Masalah": "Notifikasi award tidak bisa dikirim ke vendor",
+        "Solusi": "Pastikan email vendor valid dan sistem notifikasi aktif. Coba kirim ulang.",
+        "Tipe Pengguna": "Internal"
+    }
+]
