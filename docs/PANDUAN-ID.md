@@ -62,10 +62,6 @@ Seeder membuat 2 akun admin berikut dengan email sudah terverifikasi:
   - Email: superadmin@iotace.co.id
   - Password: bismillah
 
-- Admin IOTACE
-  - Email: admin@iotace.co.id
-  - Password: bismillah
-
 Silakan login di /login lalu akses /dashboard.
 
 Penting: Ubah password segera di menu Profil setelah login pada lingkungan produksi.
@@ -215,5 +211,3 @@ F. Riwayat Lapor Masalah (`/admin/riwayat-lapor-masalah`)
 - Lakukan backup berkala untuk file `database/database.sqlite` dan folder `storage/app/public`.
 
 ---
-
-Selesai. Jika butuh panduan lebih lanjut (contoh: migrasi ke MySQL), tambahkan permintaan pada dokumentasi ini.
