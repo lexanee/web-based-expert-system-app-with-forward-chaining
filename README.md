@@ -7,6 +7,10 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Dokumentasi Aplikasi (Bahasa Indonesia)
+
+Lihat panduan lengkap instalasi, konfigurasi, dan penggunaan aplikasi ini dalam Bahasa Indonesia di: docs/PANDUAN-ID.md
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
