@@ -50,6 +50,7 @@ This is a **Web-Based Expert System Application** designed for diagnosing techni
    npm install
    ```
 
+<<<<<<< HEAD
 4. **Setup database**
    ```bash
    # Create MySQL database
@@ -97,6 +98,63 @@ This is a **Web-Based Expert System Application** designed for diagnosing techni
 
 ### Core Components
 
+=======
+4. **Generate application key**
+   ```bash
+   php artisan key:generate
+   ```
+
+5. **Setup database**
+   ```bash
+   # Create MySQL database
+   mysql -u root -p
+   CREATE DATABASE db_expert_system_fwc;
+   EXIT;
+   
+   # Update .env file - uncomment and configure these lines:
+   # DB_HOST=127.0.0.1
+   # DB_PORT=3306
+   # DB_DATABASE=db_expert_system_fwc
+   # DB_USERNAME=root
+   # DB_PASSWORD=
+   
+   # Then run migrations
+   php artisan migrate --seed
+   ```
+
+6. **Run the application**
+   
+   **Option A: All processes in parallel**
+   ```bash
+   composer run dev
+   ```
+   
+   **Option B: Manual separate terminals**
+   ```bash
+   # Terminal 1
+   php artisan serve
+   
+   # Terminal 2
+   npm run dev
+   ```
+
+7. **Access the application**
+   - **Public Site**: http://127.0.0.1:8000/
+   - **Admin Dashboard**: http://127.0.0.1:8000/dashboard
+
+### 🔑 Default Admin Credentials
+
+| Role | Email | Password |
+|------|-------|----------|
+| Super Admin | admin@example.com | password |
+
+> ⚠️ **Security Note**: Change default passwords immediately in production!
+
+## 🏗️ System Architecture
+
+### Core Components
+
+>>>>>>> 70af008 (chore: update environment configuration and enhance README for Expert System)
 - **Forward Chaining Engine** (`App\Services\ForwardChainingEngine`)
 - **Models**: Gejala (Symptoms), Masalah (Problems), Aturan (Rules)
 - **Authentication**: Laravel Breeze with email verification
@@ -252,6 +310,7 @@ Example rule structure:
 # Copy environment file
 cp .env.example .env
 
+<<<<<<< HEAD
 # Key configurations
 APP_NAME="Expert System E-Procurement"
 APP_URL=http://127.0.0.1:8000
@@ -261,6 +320,17 @@ DB_PORT=3306
 DB_DATABASE=expert_system
 DB_USERNAME=your_username
 DB_PASSWORD=your_password
+=======
+# Key configurations (uncomment the DB_* lines in .env)
+APP_NAME="Expert System Forward Chaining"
+APP_URL=http://localhost
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=db_expert_system_fwc
+DB_USERNAME=root
+DB_PASSWORD=
+>>>>>>> 70af008 (chore: update environment configuration and enhance README for Expert System)
 ```
 
 ### Storage Configuration
